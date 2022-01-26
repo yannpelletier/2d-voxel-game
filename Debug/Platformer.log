@@ -1,0 +1,81 @@
+﻿Build started 2015-10-27 22:51:20.
+     1>Project "C:\Users\YannPelletier\Desktop\Platformer\Platformer\Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt app.cpp box.cpp capsule.cpp entity.cpp gameplayScreen.cpp globals.cpp inventory.cpp inventoryItem.cpp itemDef.cpp main.cpp player.cpp tile.cpp tileBatch.cpp userData.cpp world.cpp
+         world.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\world.cpp(312): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\world.cpp(312): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\world.cpp(319): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\world.cpp(319): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\world.cpp(359): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\world.cpp(360): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         userData.cpp
+         tileBatch.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\tilebatch.cpp(7): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\tilebatch.cpp(39): warning C4018: '<': signed/unsigned mismatch
+         tile.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\tile.cpp(16): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\tile.cpp(17): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\tile.cpp(50): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\tile.cpp(51): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+         player.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\player.cpp(25): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\player.cpp(25): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\yannpelletier\desktop\platformer\platformer\player.cpp(127): warning C4244: 'argument': conversion from 'double' to 'float32', possible loss of data
+         main.cpp
+         itemDef.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(21): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(22): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(32): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(38): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(74): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(75): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(80): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+         inventoryItem.cpp
+         inventory.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\inventory.cpp(25): warning C4018: '<': signed/unsigned mismatch
+         globals.cpp
+         gameplayScreen.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\gameplayscreen.cpp(47): warning C4316: 'player': object allocated on the heap may not be aligned 16
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\memory(1636): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         c:\users\yannpelletier\desktop\platformer\platformer\gameplayscreen.cpp(40): note: see reference to function template instantiation 'std::unique_ptr<world,std::default_delete<_Ty>> std::make_unique<world,int>(int &&)' being compiled
+                 with
+                 [
+                     _Ty=world
+                 ]
+         entity.cpp
+         capsule.cpp
+         box.cpp
+     1>c:\users\yannpelletier\desktop\platformer\platformer\box.cpp(25): warning C4244: 'argument': conversion from 'double' to 'float32', possible loss of data
+         app.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\memory(1636): warning C4316: 'gameplayScreen': object allocated on the heap may not be aligned 16
+         c:\users\yannpelletier\desktop\platformer\platformer\app.cpp(20): note: see reference to function template instantiation 'std::unique_ptr<gameplayScreen,std::default_delete<_Ty>> std::make_unique<gameplayScreen,gengine::window*>(gengine::window *&&)' being compiled
+                 with
+                 [
+                     _Ty=gameplayScreen
+                 ]
+         Generating Code...
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(109): warning C4715: 'tile_item::secondaryUse': not all control paths return a value
+     1>c:\users\yannpelletier\desktop\platformer\platformer\itemdef.cpp(71): warning C4715: 'tile_item::primaryUse': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\YannPelletier\Desktop\Platformer\Debug\Platformer.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib glew32.lib opengl32.lib SDL2_ttf.lib SDL2_mixer.lib Gengine.lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\YannPelletier\Desktop\Platformer\Debug\Platformer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\YannPelletier\Desktop\Platformer\Debug\Platformer.lib" /MACHINE:X86 Debug\app.obj
+         Debug\box.obj
+         Debug\capsule.obj
+         Debug\entity.obj
+         Debug\gameplayScreen.obj
+         Debug\globals.obj
+         Debug\inventory.obj
+         Debug\inventoryItem.obj
+         Debug\itemDef.obj
+         Debug\main.obj
+         Debug\player.obj
+         Debug\tile.obj
+         Debug\tileBatch.obj
+         Debug\userData.obj
+         Debug\world.obj
+         Platformer.vcxproj -> C:\Users\YannPelletier\Desktop\Platformer\Debug\Platformer.exe
+     1>Done Building Project "C:\Users\YannPelletier\Desktop\Platformer\Platformer\Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.78

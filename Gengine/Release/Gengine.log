@@ -1,0 +1,54 @@
+﻿  animation.cpp
+  audioEngine.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\audioEngine.cpp(117,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\audioEngine.cpp(133,50): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  camera2D.cpp
+  debugRenderer.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\debugRenderer.cpp(146,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  errors.cpp
+  gengine.cpp
+  GLSLProgram.cpp
+  GUI.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\deps\include\CEGUI\Exceptions.h(41,26): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'CEGUI::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vcruntime_exception.h(48): message : see declaration of 'std::exception'
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\deps\include\CEGUI\Exceptions.h(40): message : see declaration of 'CEGUI::Exception'
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\GUI.cpp(67,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\GUI.cpp(228,60): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\GUI.cpp(228,45): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\GUI.cpp(238,22): warning C4018: '<': signed/unsigned mismatch
+  iGameScreen.cpp
+  imageLoader.cpp
+  iMainGame.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\iMainGame.cpp(38,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\iMainGame.cpp(83,61): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\iMainGame.cpp(83,45): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  inputManager.cpp
+  IOManager.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\IOManager.cpp(19,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\IOManager.cpp(41,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  meshBatch.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\meshBatch.cpp(40,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\meshBatch.cpp(77,21): warning C4018: '<': signed/unsigned mismatch
+  particleBatch2D.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\particleBatch2D.h(3,10): fatal error C1083: Cannot open include file: 'boost/function.hpp': No such file or directory
+  particleEngine2D.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\particleBatch2D.h(3,10): fatal error C1083: Cannot open include file: 'boost/function.hpp': No such file or directory
+  picoPNG.cpp
+  ressourceManager.cpp
+  screenList.cpp
+  spriteBatch.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteBatch.cpp(343,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteBatch.cpp(398,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteBatch.cpp(427,23): warning C4018: '<': signed/unsigned mismatch
+  Compiling...
+  spriteFont.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\GLTexture.h(5,18): warning C4099: 'gengine::GLTexture': type name first seen using 'class' now seen using 'struct'
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\GLTexture.h(5): message : see declaration of 'gengine::GLTexture'
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteFont.cpp(38,60): warning C4316: 'glm::tvec4<int,glm::highp>': object allocated on the heap may not be aligned 16
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteFont.cpp(98,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteFont.cpp(108,30): warning C4244: '*=': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\spriteFont.cpp(143,48): warning C4316: 'gengine::CharGlyph': object allocated on the heap may not be aligned 16
+  textureCache.cpp
+  timing.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine\timing.cpp(25,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  window.cpp

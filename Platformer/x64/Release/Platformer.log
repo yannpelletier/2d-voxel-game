@@ -1,0 +1,105 @@
+﻿  agent.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\agent.h(2,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  app.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\app.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/iMainGame.h': No such file or directory
+  body.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\body.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  cave.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  childTile.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\materialModInstance.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  damageLabel.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\damageLabel.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteBatch.h': No such file or directory
+  definition.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\definition.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  effect.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  entity.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\entity.h(2,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  event.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  fatherTile.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\materialModInstance.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  filling.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  gameplayScreen.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\gameplayScreen.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/GLTexture.h': No such file or directory
+  generationAsset.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  globals.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\globals.h(1,10): fatal error C1083: Cannot open include file: 'Gengine\vertex.h': No such file or directory
+  groundMaterial.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  GUI.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\GUI.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/GLTexture.h': No such file or directory
+  heldItem.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\body.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  inventory.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\inventory.h(3,10): fatal error C1083: Cannot open include file: 'Gengine/GLTexture.h': No such file or directory
+  inventoryItem.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\definition.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  Compiling...
+  itemDefinition.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\definition.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  jsoncpp.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\jsoncpp\jsoncpp.cpp(76,10): fatal error C1083: Cannot open include file: 'json/json.h': No such file or directory
+  largeTileBody.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\tileHitbox.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  lightSystem.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\lightSystem.h(2,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  luaHandler.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  main.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\main.cpp(1,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  material.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\material.h(3,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  materialMod.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\definition.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  materialModInstance.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\materialModInstance.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  NPC.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\agent.h(2,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  particle.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\particle.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/particleEngine2D.h': No such file or directory
+  particleEmitter.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\particleEmitter.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  perlinNoise.cpp
+  placableItem.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\placableItem.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/animation.h': No such file or directory
+  platform.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\tileHitbox.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  player.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\player.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  projectile.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\definition.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  regularTile.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\materialModInstance.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  skeleton.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\skeleton.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteBatch.h': No such file or directory
+  spot.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  Compiling...
+  tile.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\materialModInstance.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  tileBatch.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\tileBatch.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  tileTemplate.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\material.h(3,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory
+  tileSlope.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\tileHitbox.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  tileSpike.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\tileHitbox.h(2,10): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+  timer.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  top.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\luaHandler.h(3,10): fatal error C1083: Cannot open include file: 'SDL/SDL.h': No such file or directory
+  usableItem.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\usableItem.h(3,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  userData.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\userData.cpp(2,10): fatal error C1083: Cannot open include file: 'Box2d/Box2d.h': No such file or directory
+  world.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\world.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/ressourceManager.h': No such file or directory
+  worldGenerator.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\definition.h(2,10): fatal error C1083: Cannot open include file: 'Gengine/vertex.h': No such file or directory
+  worldTemplate.cpp
+C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Platformer\material.h(3,10): fatal error C1083: Cannot open include file: 'Gengine/spriteSheet.h': No such file or directory

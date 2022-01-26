@@ -1,0 +1,41 @@
+
+humanoid.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bone
+  rotate: false
+  xy: 307, 184
+  size: 100, 50
+  orig: 100, 50
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 2, 2
+  size: 226, 232
+  orig: 226, 232
+  offset: 0, 0
+  index: -1
+foot
+  rotate: true
+  xy: 270, 37
+  size: 95, 31
+  orig: 95, 31
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 230, 134
+  size: 75, 100
+  orig: 75, 100
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 230, 18
+  size: 38, 114
+  orig: 38, 114
+  offset: 0, 0
+  index: -1

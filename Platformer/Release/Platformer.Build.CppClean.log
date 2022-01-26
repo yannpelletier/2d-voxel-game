@@ -1,0 +1,251 @@
+c:\users\yannt\desktop\platformer2\platformer\release\vc141.pdb
+c:\users\yannt\desktop\platformer2\platformer\release\main.obj
+c:\users\yannt\desktop\platformer2\platformer\release\luahandler.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lightsystem.obj
+c:\users\yannt\desktop\platformer2\platformer\release\largetilebody.obj
+c:\users\yannt\desktop\platformer2\platformer\release\jsoncpp.obj
+c:\users\yannt\desktop\platformer2\platformer\release\itemdefinition.obj
+c:\users\yannt\desktop\platformer2\platformer\release\inventoryitem.obj
+c:\users\yannt\desktop\platformer2\platformer\release\inventory.obj
+c:\users\yannt\desktop\platformer2\platformer\release\helditem.obj
+c:\users\yannt\desktop\platformer2\platformer\release\gui.obj
+c:\users\yannt\desktop\platformer2\platformer\release\globals.obj
+c:\users\yannt\desktop\platformer2\platformer\release\gameplayscreen.obj
+c:\users\yannt\desktop\platformer2\platformer\release\event.obj
+c:\users\yannt\desktop\platformer2\platformer\release\entity.obj
+c:\users\yannt\desktop\platformer2\platformer\release\effect.obj
+c:\users\yannt\desktop\platformer2\platformer\release\definition.obj
+c:\users\yannt\desktop\platformer2\platformer\release\damagetext.obj
+c:\users\yannt\desktop\platformer2\platformer\release\body.obj
+c:\users\yannt\desktop\platformer2\platformer\release\app.obj
+c:\users\yannt\desktop\platformer2\platformer\release\agent.obj
+c:\users\yannt\desktop\platformer2\platformer\release\userdata.obj
+c:\users\yannt\desktop\platformer2\platformer\release\usable_item.obj
+c:\users\yannt\desktop\platformer2\platformer\release\timer.obj
+c:\users\yannt\desktop\platformer2\platformer\release\tilespike.obj
+c:\users\yannt\desktop\platformer2\platformer\release\tileslope.obj
+c:\users\yannt\desktop\platformer2\platformer\release\tiledef.obj
+c:\users\yannt\desktop\platformer2\platformer\release\tilebatch.obj
+c:\users\yannt\desktop\platformer2\platformer\release\tile.obj
+c:\users\yannt\desktop\platformer2\platformer\release\skeleton.obj
+c:\users\yannt\desktop\platformer2\platformer\release\projectile.obj
+c:\users\yannt\desktop\platformer2\platformer\release\player.obj
+c:\users\yannt\desktop\platformer2\platformer\release\platform.obj
+c:\users\yannt\desktop\platformer2\platformer\release\placable_item.obj
+c:\users\yannt\desktop\platformer2\platformer\release\perlinnoise.obj
+c:\users\yannt\desktop\platformer2\platformer\release\particleemitter.obj
+c:\users\yannt\desktop\platformer2\platformer\release\particle.obj
+c:\users\yannt\desktop\platformer2\platformer\release\npc.obj
+c:\users\yannt\desktop\platformer2\platformer\release\materialmodinstance.obj
+c:\users\yannt\desktop\platformer2\platformer\release\materialmod.obj
+c:\users\yannt\desktop\platformer2\platformer\release\material.obj
+c:\users\yannt\desktop\platformer2\platformer\release\worldgenerator.obj
+c:\users\yannt\desktop\platformer2\platformer\release\world.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lobject.obj
+c:\users\yannt\desktop\platformer2\platformer\release\loadlib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lmem.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lmathlib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\llex.obj
+c:\users\yannt\desktop\platformer2\platformer\release\liolib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\linit.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lgc.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lfunc.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ldump.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ldo.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ldebug.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ldblib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lctype.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lcorolib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lcode.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lbitlib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lbaselib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lauxlib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lapi.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lzio.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lvm.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lutf8lib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lundump.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ltm.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ltablib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\ltable.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lstrlib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lstring.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lstate.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lparser.obj
+c:\users\yannt\desktop\platformer2\platformer\release\loslib.obj
+c:\users\yannt\desktop\platformer2\platformer\release\lopcodes.obj
+c:\users\yannt\desktop\platformer2\platformer\release\damagelabel.obj
+c:\users\yannt\desktop\platformer2\platformer\release\modifier.obj
+c:\users\yannt\desktop\platformer2\platformer\release\usableitem.obj
+c:\users\yannt\desktop\platformer2\platformer\release\placableitem.obj
+c:\users\yannt\desktop\platformer2\release\platformer.exe
+c:\users\yannt\desktop\platformer2\release\platformer.pdb
+c:\users\yannt\desktop\platformer2\release\platformer.ipdb
+c:\users\yannt\desktop\platformer2\release\platformer.iobj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\agent.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\app.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\body.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\damagelabel.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\damagetext.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\definition.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\effect.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\entity.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\event.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\gameplayscreen.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\globals.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\gui.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\helditem.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\inventory.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\inventoryitem.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\itemdefinition.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\jsoncpp.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lapi.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\largetilebody.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lauxlib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lbaselib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lbitlib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lcode.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lcorolib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lctype.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldblib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldebug.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldo.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldump.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lfunc.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lgc.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lightsystem.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\linit.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\liolib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\llex.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lmathlib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lmem.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\loadlib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lobject.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lopcodes.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\loslib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lparser.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lstate.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lstring.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lstrlib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ltable.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ltablib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ltm.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\luahandler.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lundump.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lutf8lib.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lvm.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lzio.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\main.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\material.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\materialmod.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\materialmodinstance.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\modifier.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\npc.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\particle.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\particleemitter.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\perlinnoise.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\placableitem.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\placable_item.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platform.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\player.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\projectile.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\skeleton.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tile.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tilebatch.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tiledef.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tileslope.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tilespike.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\timer.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\usableitem.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\usable_item.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\userdata.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\world.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\worldgenerator.obj
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\nativecodeanalysis.read.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\vc141.pdb
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\agent.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\app.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\body.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\damagetext.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\definition.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\effect.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\entity.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\event.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\gameplayscreen.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\globals.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\gui.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\helditem.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\inventory.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\inventoryitem.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\itemdefinition.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\jsoncpp.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lapi.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\largetilebody.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lauxlib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lbaselib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lbitlib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lcode.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lcorolib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lctype.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldblib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldebug.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldo.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ldump.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lfunc.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lgc.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lightsystem.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\linit.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\liolib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\llex.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lmathlib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lmem.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\loadlib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lobject.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lopcodes.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\loslib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lparser.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lstate.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lstring.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lstrlib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ltable.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ltablib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\ltm.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\luahandler.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lundump.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lutf8lib.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lvm.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\lzio.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\main.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\material.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\materialmod.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\materialmodinstance.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\npc.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\particle.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\particleemitter.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\perlinnoise.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\placable_item.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platform.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\player.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\projectile.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\skeleton.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tile.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tilebatch.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tiledef.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tileslope.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\tilespike.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\timer.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\usable_item.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\userdata.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\vc.nativecodeanalysis.all.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\world.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\worldgenerator.nativecodeanalysis.xml
+c:\users\yannt\desktop\platformer2 - copy\release\platformer.pdb
+c:\users\yannt\desktop\platformer2 - copy\release\platformer.exe
+c:\users\yannt\desktop\platformer2 - copy\release\platformer.exe.lastcodeanalysissucceeded
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\cl.command.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\cl.read.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\cl.write.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\link.command.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\link.read.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\link.write.1.tlog
+c:\users\yannt\desktop\platformer2 - copy\platformer\release\platformer.tlog\platformer.write.1u.tlog

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94DAF047-53CC-4F55-A567-3290DC3F2391}</ProjectGuid>
+    <RootNamespace>Platformer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)deps\include;$(SolutionDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps\lib\Release;$(SolutionDir)Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)deps\include;$(SolutionDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)deps\lib\Debug;$(SolutionDir)Debug;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../boost_1_57_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;SDL2_ttf.lib;SDL2_mixer.lib;Gengine.lib;Box2D.lib;CEGUIBase-0_d.lib;CEGUIOpenGLRenderer-0_d.lib;spine-c.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(solutionDir)../boost_1_57_0/stage/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../boost_1_57_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;glew32.lib;opengl32.lib;SDL2_ttf.lib;SDL2_mixer.lib;Gengine.lib;Box2D.lib;CEGUIBase-0.lib;CEGUIOpenGLRenderer-0.lib;spine-c.lib</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../boost_1_57_0/stage/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\yannt\Documents\Projects\2d-voxel-platformer\Gengine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="agent.cpp" />
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="body.cpp" />
+    <ClCompile Include="cave.cpp" />
+    <ClCompile Include="childTile.cpp" />
+    <ClCompile Include="damageLabel.cpp" />
+    <ClCompile Include="definition.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="event.cpp" />
+    <ClCompile Include="fatherTile.cpp" />
+    <ClCompile Include="filling.cpp" />
+    <ClCompile Include="gameplayScreen.cpp" />
+    <ClCompile Include="generationAsset.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="groundMaterial.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="heldItem.cpp" />
+    <ClCompile Include="inventory.cpp" />
+    <ClCompile Include="inventoryItem.cpp" />
+    <ClCompile Include="itemDefinition.cpp" />
+    <ClCompile Include="jsoncpp\jsoncpp.cpp" />
+    <ClCompile Include="largeTileBody.cpp" />
+    <ClCompile Include="lightSystem.cpp" />
+    <ClCompile Include="luaHandler.cpp" />
+    <ClCompile Include="Lua\lapi.c" />
+    <ClCompile Include="Lua\lauxlib.c" />
+    <ClCompile Include="Lua\lbaselib.c" />
+    <ClCompile Include="Lua\lbitlib.c" />
+    <ClCompile Include="Lua\lcode.c" />
+    <ClCompile Include="Lua\lcorolib.c" />
+    <ClCompile Include="Lua\lctype.c" />
+    <ClCompile Include="Lua\ldblib.c" />
+    <ClCompile Include="Lua\ldebug.c" />
+    <ClCompile Include="Lua\ldo.c" />
+    <ClCompile Include="Lua\ldump.c" />
+    <ClCompile Include="Lua\lfunc.c" />
+    <ClCompile Include="Lua\lgc.c" />
+    <ClCompile Include="Lua\linit.c" />
+    <ClCompile Include="Lua\liolib.c" />
+    <ClCompile Include="Lua\llex.c" />
+    <ClCompile Include="Lua\lmathlib.c" />
+    <ClCompile Include="Lua\lmem.c" />
+    <ClCompile Include="Lua\loadlib.c" />
+    <ClCompile Include="Lua\lobject.c" />
+    <ClCompile Include="Lua\lopcodes.c" />
+    <ClCompile Include="Lua\loslib.c" />
+    <ClCompile Include="Lua\lparser.c" />
+    <ClCompile Include="Lua\lstate.c" />
+    <ClCompile Include="Lua\lstring.c" />
+    <ClCompile Include="Lua\lstrlib.c" />
+    <ClCompile Include="Lua\ltable.c" />
+    <ClCompile Include="Lua\ltablib.c" />
+    <ClCompile Include="Lua\ltm.c" />
+    <ClCompile Include="Lua\lundump.c" />
+    <ClCompile Include="Lua\lutf8lib.c" />
+    <ClCompile Include="Lua\lvm.c" />
+    <ClCompile Include="Lua\lzio.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="material.cpp" />
+    <ClCompile Include="materialMod.cpp" />
+    <ClCompile Include="materialModInstance.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="particleEmitter.cpp" />
+    <ClCompile Include="perlinNoise.cpp" />
+    <ClCompile Include="placableItem.cpp" />
+    <ClCompile Include="platform.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="projectile.cpp" />
+    <ClCompile Include="regularTile.cpp" />
+    <ClCompile Include="skeleton.cpp" />
+    <ClCompile Include="spot.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="tileBatch.cpp" />
+    <ClCompile Include="tileTemplate.cpp" />
+    <ClCompile Include="tileSlope.cpp" />
+    <ClCompile Include="tileSpike.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="top.cpp" />
+    <ClCompile Include="usableItem.cpp" />
+    <ClCompile Include="userData.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="worldGenerator.cpp" />
+    <ClCompile Include="worldTemplate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="agent.h" />
+    <ClInclude Include="app.h" />
+    <ClInclude Include="body.h" />
+    <ClInclude Include="bodyTemplate.h" />
+    <ClInclude Include="cave.h" />
+    <ClInclude Include="childTile.h" />
+    <ClInclude Include="contactListener.h" />
+    <ClInclude Include="damageLabel.h" />
+    <ClInclude Include="definition.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="fatherTile.h" />
+    <ClInclude Include="filling.h" />
+    <ClInclude Include="gameplayScreen.h" />
+    <ClInclude Include="generationAsset.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="groundMaterial.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="heldItem.h" />
+    <ClInclude Include="inventory.h" />
+    <ClInclude Include="inventoryItem.h" />
+    <ClInclude Include="itemDefinition.h" />
+    <ClInclude Include="largeTileBody.h" />
+    <ClInclude Include="lightSystem.h" />
+    <ClInclude Include="luaHandler.h" />
+    <ClInclude Include="Lua\lapi.h" />
+    <ClInclude Include="Lua\lauxlib.h" />
+    <ClInclude Include="Lua\lcode.h" />
+    <ClInclude Include="Lua\lctype.h" />
+    <ClInclude Include="Lua\ldebug.h" />
+    <ClInclude Include="Lua\ldo.h" />
+    <ClInclude Include="Lua\lfunc.h" />
+    <ClInclude Include="Lua\lgc.h" />
+    <ClInclude Include="Lua\llex.h" />
+    <ClInclude Include="Lua\llimits.h" />
+    <ClInclude Include="Lua\lmem.h" />
+    <ClInclude Include="Lua\lobject.h" />
+    <ClInclude Include="Lua\lopcodes.h" />
+    <ClInclude Include="Lua\lparser.h" />
+    <ClInclude Include="Lua\lprefix.h" />
+    <ClInclude Include="Lua\lstate.h" />
+    <ClInclude Include="Lua\lstring.h" />
+    <ClInclude Include="Lua\ltable.h" />
+    <ClInclude Include="Lua\ltm.h" />
+    <ClInclude Include="Lua\lua.h" />
+    <ClInclude Include="Lua\lua.hpp" />
+    <ClInclude Include="Lua\luaconf.h" />
+    <ClInclude Include="Lua\lualib.h" />
+    <ClInclude Include="Lua\lundump.h" />
+    <ClInclude Include="Lua\lvm.h" />
+    <ClInclude Include="Lua\lzio.h" />
+    <ClInclude Include="material.h" />
+    <ClInclude Include="materialMod.h" />
+    <ClInclude Include="materialModInstance.h" />
+    <ClInclude Include="NPC.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="particleEmitter.h" />
+    <ClInclude Include="perlinNoise.h" />
+    <ClInclude Include="placableItem.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="projectile.h" />
+    <ClInclude Include="regularTile.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="skeleton.h" />
+    <ClInclude Include="spot.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="tileBatch.h" />
+    <ClInclude Include="tileTemplate.h" />
+    <ClInclude Include="tileHitbox.h" />
+    <ClInclude Include="tileSlope.h" />
+    <ClInclude Include="tileSpike.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="top.h" />
+    <ClInclude Include="usableItem.h" />
+    <ClInclude Include="userData.h" />
+    <ClInclude Include="world.h" />
+    <ClInclude Include="worldGenerator.h" />
+    <ClInclude Include="worldTemplate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Platformer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
